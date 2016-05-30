@@ -83,7 +83,6 @@ func (s *Stack) Pop(data interface{}) error {
 func (s *Stack) BPop(data interface{}) error {
 	c := s.pool.Get()
 	defer c.Close()
-	defer fmt.Println("end")
 	var chanRes = make(chan string)
 	var chanErr = make(chan error)
 

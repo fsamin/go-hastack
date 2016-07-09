@@ -1,4 +1,4 @@
-# HA Stack
+# Golang HA Stack
 [![Build Status](https://travis-ci.org/fsamin/go-hastack.svg?branch=master)](https://travis-ci.org/fsamin/go-hastack)
 
 Share a thread-safe FIFO Stack across multiple hosts. HA Stack use Redis as backend and helps you to push and pop elements in your stack.

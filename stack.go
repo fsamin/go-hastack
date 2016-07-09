@@ -1,3 +1,6 @@
+//Package hastack aims to share a thread-safe FIFO Stack across multiple hosts.
+//HA Stack use Redis as backend and helps you to push and pop elements in your stack.
+//See https://github.com/fsamin/go-hastack for sample usages.
 package hastack
 
 import (

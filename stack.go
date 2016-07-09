@@ -15,7 +15,7 @@ import (
 //push, which adds an element to the collection, and pop, which removes the most
 //recently added element that was not yet removed. Hastack uses Redis ad backend
 //and ensures thread-safe access to enable high availability capacities
-//Import this as dependencies to manage a thread-safe FIFO Stack accross
+//Import this as dependencies to manage a thread-safe FIFO Stack across
 //multiple hosts
 type Stack struct {
 	name string

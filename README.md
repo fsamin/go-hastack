@@ -5,6 +5,8 @@
  
 Share a thread-safe FIFO Stack across multiple hosts. HA Stack use Redis as backend and helps you to push and pop elements in your stack.
 
+plop
+
 ## Open or connect to a Stack
 Each stack have a logical name, a is accessible through redis.
 ```

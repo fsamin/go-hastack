@@ -11,7 +11,6 @@ Each stack have a logical name, a is accessible through redis.
     stack, err := hastack.Connect("mystack", "localhost:6379", "", 3, 100)
 ```
 
-
 ## Push
 ```
 stack, _ := hastack.Connect("mystack", "localhost:6379", "", 3, 100)

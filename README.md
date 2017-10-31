@@ -14,6 +14,7 @@ Each stack have a logical name, a is accessible through redis.
 ## Push
 ```
 stack, _ := hastack.Connect("mystack", "localhost:6379", "", 3, 100)
+
 var data myData{
         ...,
 }
